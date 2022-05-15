@@ -30,7 +30,7 @@ public class HolaMundoSwing extends JFrame implements ActionListener{
 		panelPrincipal = new JPanel();
 		panelPrincipal.setLayout(new BorderLayout());
 		
-		btnHolaMundo = new JButton("Hola Mundo");
+		btnHolaMundo = new JButton("Hola Mundo JAJA XD");
 		panelPrincipal.add(btnHolaMundo, BorderLayout.SOUTH);
 		
 		/*btnHolaMundo.addActionListener(new ActionListener() {
@@ -51,7 +51,7 @@ public class HolaMundoSwing extends JFrame implements ActionListener{
 		
 		setContentPane(panelPrincipal);
 		
-		lblIncremental = new JLabel("Contador :" + contador);
+		lblIncremental = new JLabel("CONTADOR :" + contador);
 		lblIncremental.setHorizontalAlignment(SwingConstants.CENTER);
 		panelPrincipal.add(lblIncremental, BorderLayout.CENTER);
 		
